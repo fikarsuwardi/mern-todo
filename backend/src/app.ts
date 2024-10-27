@@ -1,6 +1,6 @@
 import "dotenv/config";
 import express, { NextFunction, Request, Response } from "express";
-import notesRoutes from "./models/notes";
+import notesRoutes from "./routes/notes";
 
 const app = express();
 
